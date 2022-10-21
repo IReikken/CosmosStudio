@@ -10,85 +10,122 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon"" href="./imagenes/icono.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!--hoja de estilos-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilos/css/styles.css">
 </head>
 <body>
     <header>
-        <a href="#""> <img class="header__logo" src="./imagenes/Logo sin background.png" alt="Cosmos studio Logo"> </a>
-        <nav class="header__navigation">
-            <ul class="header__list">
-                <li class="header__renglon"><a href="./vistas/blog.html">Blog</a></li>
-                <li class="header__renglon"><a href="./vistas/tienda.html">Tienda</a></li>
-                <li class="header__renglon"><a href="./vistas/contacto.html">Contacto</a></li>
-                <li class="header__renglon"><a href="./vistas/nosotros.html">Acerca</a></li>
+        <!--<a href="#" class="navbar-brand"> <img class="header__logo" src="./imagenes/Logo sin background.png" alt="Cosmos studio Logo"> </a>
+        <nav class="header__navigation navbar">
+            <ul class="header__list nav">
+                <li class="header__renglon nav-item"><a class="nav-link" href="./vistas/tienda.html">Tienda</a></li>
+                <li class="header__renglon nav-item"><a class="nav-link" href="./vistas/contacto.html">Contacto</a></li>
+                <li class="header__renglon nav-item"><a class="nav-link" href="./vistas/nosotros.html">Acerca</a></li>
+                <li class="header__renglon nav-item"><a class="nav-link" href="./vistas/blog.html">Blog</a></li>
             </ul>
+        </nav>-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"> <img class="header__logo" src="./imagenes/Logo sin background.png" alt="Cosmos studio Logo"> </a>
+                <button class="navbar-toggler header__btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav header__margin">
+                    <li class="nav-item header__renglon">
+                        <a class="nav-link active" href="./vistas/tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item header__renglon">
+                        <a class="nav-link active" href="./vistas/contacto.html">Contactos</a>
+                    </li>
+                    <li class="nav-item header__renglon">
+                        <a class="nav-link active" href="./vistas/nosotros.html">Acerca</a>
+                    </li>
+                    <li class="nav-item header__renglon">
+                        <a class="nav-link active" href="./vistas/blog.html">Blog</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <section class="hero">
-            <h1 class="hero__title">El espacio te espera</h1><br>
-            <h2 class="hero__slogan">Embárcate en una odisea espacial épica como nunca has imaginado</h2>
-            <div>
-                <video class="hero__video" autoplay muted loop  src="./imagenes/Game video.mp4"> </video>
+        <section class="hero container-fluid">
+            <h1 class="hero__title row">El espacio te espera</h1><br>
+            <h2 class="hero__slogan row">Embárcate en una odisea espacial épica como nunca has imaginado</h2>
+            <div class="row" >
+                <video class="hero__video col-xs" autoplay muted loop  src="./imagenes/Game video.mp4"> </video>
             </div>
-            <div class="hero__footer">
-                <p class="hero__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, debitis! Officiis, nesciunt sapiente! Possimus consectetur velit impedit nisi qui. Nobis aut natus inventore quia ex. Odit est accusantium ex voluptatibus adipisci labore at tempora. Mollitia aut vero vitae quod nesciunt.</p>
-                <button class="hero__btn">Conoce más sobre nuestro juego</button>
+            <div class="hero__footer row p-lg-50">
+                <p class="hero__text p-3 col-md-6 offset-md-1 col-xs-1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, debitis! Officiis, nesciunt sapiente! Possimus consectetur velit impedit nisi qui. Nobis aut natus inventore quia ex. Odit est accusantium ex voluptatibus adipisci labore at tempora. Mollitia aut vero vitae quod nesciunt.</p>
+                <div class="col-md-5 col-xs-1 container">
+                    <div class="btn__container row p-md-5"></div>
+                    <button class="hero__btn row "">Conoce más sobre nuestro juego</button>
+                    <div class="row"></div>
+                </div>
             </div>
         </section>
-        <section class="details">
-            <div class="details__section">
-                <img src="./imagenes/Game pic 1.png" alt="game screenshot 1"  class="details__image">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore dolorem voluptatibus consectetur eius accusantium tenetur expedita consequuntur, esse odio perferendis exercitationem reiciendis suscipit, enim porro officiis numquam beatae magnam!</p>
-            </div>
-            <div class="details__section">
-                <img src="./imagenes/Game pic 2.png" alt="game screenshot 1"  class="details__image" >
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore dolorem voluptatibus consectetur eius accusantium tenetur expedita consequuntur, esse odio perferendis exercitationem reiciendis suscipit, enim porro officiis numquam beatae magnam!</p>            
-            </div>
-            <div class="details__section">
-                <img src="./imagenes/Game pic 3.png" alt="game screenshot 1" class="details__image">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore dolorem voluptatibus consectetur eius accusantium tenetur expedita consequuntur, esse odio perferendis exercitationem reiciendis suscipit, enim porro officiis numquam beatae magnam!</p>            
-            </div>
-            <div class="details__section">
-                <img src="./imagenes/Game pic 4.png" alt="game screenshot 1" class="details__image" >
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore dolorem voluptatibus consectetur eius accusantium tenetur expedita consequuntur, esse odio perferendis exercitationem reiciendis suscipit, enim porro officiis numquam beatae magnam!</p>            
+        <section class="details container">
+            <div class="row">
+                <div class="details__section col-lg-3 col-md-6 col-xs-12">
+                    <img src="./imagenes/Game pic 1.png" alt="game screenshot 1"  class="details__image">
+                    <p class="wow bounceInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore dolorem voluptatibus consectetur eius accusantium tenetur expedita consequuntur, esse odio perferendis exercitationem reiciendis suscipit, enim porro officiis numquam beatae magnam!</p>
+                </div>
+                <div class="details__section col-lg-3 col-md-6 col-xs-12">
+                    <img src="./imagenes/Game pic 2.png" alt="game screenshot 1"  class="details__image" >
+                    <p class="wow slideInLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore dolorem voluptatibus consectetur eius accusantium tenetur expedita consequuntur, esse odio perferendis exercitationem reiciendis suscipit, enim porro officiis numquam beatae magnam!</p>            
+                </div>
+                <div class="details__section col-lg-3 col-md-6 col-xs-12">
+                    <img src="./imagenes/Game pic 3.png" alt="game screenshot 1" class="details__image">
+                    <p class="wow slideInRight">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore dolorem voluptatibus consectetur eius accusantium tenetur expedita consequuntur, esse odio perferendis exercitationem reiciendis suscipit, enim porro officiis numquam beatae magnam!</p>            
+                </div>
+                <div class="details__section col-lg-3 col-md-6 col-xs-12">
+                    <img src="./imagenes/Game pic 4.png" alt="game screenshot 1" class="details__image" >
+                    <p class="wow bounceInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore dolorem voluptatibus consectetur eius accusantium tenetur expedita consequuntur, esse odio perferendis exercitationem reiciendis suscipit, enim porro officiis numquam beatae magnam!</p>            
+                </div>
             </div>
         </section>
     </main>
     <footer>
         <a href="#""> <img class="footer__logo" src="./imagenes/Logo sin background.png" alt="Cosmos studio Logo"></a>
-        <section class="footer_info">
-            <div>
-                Querétaro, México
+        <section class="footer__info">
+            <div class="d-none d-sm-block">
+                  Querétaro, México
             </div>
-            <div>
-                2022 Cosmos Studios Game Dev
+            <div class="d-none d-sm-block">
+                 2022 Cosmos Studios Game Dev
             </div>
         </section>
-        <div class="footer_social">
-            Redes Sociales
+        <div class="footer_social d-none d-sm-block col">
+             Redes Sociales
         </div>
         <nav class="footer__navigation">
             <ul class="footer__list">
                 <li class="footer__renglon">
                     <a href="https://www.youtube.com">
-                    <img class="footer_icon" src="./imagenes/youtube.png" alt="Youtube Icon"></a>
+                    <img class="footer_icon " src="./imagenes/youtube.png" alt="Youtube Icon"></a>
                 </li>
                 <li class="footer__renglon">
                     <a href="https://www.twitter.com">
-                    <img class="footer_icon" src="./imagenes/twitter.png" alt="Twitter Icon"></a>
+                    <img class="footer_icon " src="./imagenes/twitter.png" alt="Twitter Icon"></a>
                 </li>
                 <li class="footer__renglon">
                     <a href="https://www.facebook.com/">
-                    <img class="footer_icon" src="./imagenes/facebook.png" alt="Facebook Icon"></a>
+                    <img class="footer_icon " src="./imagenes/facebook.png" alt="Facebook Icon"></a>
                 </li>
                 <li class="footer__renglon">
                     <a href="https://www.instagram.com/">
-                    <img class="footer_icon" src="./imagenes/instagram.png" alt="Instagram Icon"></a>
+                    <img class="footer_icon " src="./imagenes/instagram.png" alt="Instagram Icon"></a>
                 </li>
             </ul>
         </nav>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>

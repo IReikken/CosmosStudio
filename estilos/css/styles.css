@@ -13,16 +13,17 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 
 .header__logo {
-    height: 15vh;
+    height: 10vh;
 }
-
+/*
 .header__banner{
     height: 15vh;
     width: 60vw;
-}
+}*/
 
 .header__navigation{
     display: inline-block;
@@ -35,14 +36,23 @@ header{
     list-style-type: none;
 }
 
+.header__margin{
+    margin-left: 60%;
+}
+
+.header__btn{
+    background-color: aqua;
+    border: solid 2px purple;
+}
+
 .header__renglon{
-    display: inline-block;
+    /*display: inline-block;*/
     border: solid 5px purple;
     background-color: aqua;
-    font-size: 2.5rem;
-    padding-right: 2rem;
+    /*font-size: 2rem;*/
+    /*padding-right: 2rem;
     padding-left: 2rem;
-    margin-left: 0rem;
+    margin-left: 0rem;*/
 }
 
 /*  header fin*/
@@ -84,21 +94,23 @@ main{
 
 .hero__footer{
     margin-top: 3vh;    
-    text-align: center;
+    /* text-align: center; */
 }
 
 .hero__text{
     font-size: 1.5rem;
-    width: 500px;
+    /* width: 500px; */
     display: block;
-    margin: 0 auto;
-    margin-bottom: 40px;
+    /* margin: 0 auto; */
+    /* margin-bottom: 40px; */
 }
+
 
 .hero__btn{
     width: 150px;
     height: 80px;
-    display: inline-block;
+    margin: 0 auto;
+    /*display: inline-block;*/
     background-color: rgb(179, 93, 190);
     font-weight: bold;
     border-radius: 15px;
@@ -115,19 +127,16 @@ main{
 }
 
 .details__section{
-    width: 600px;
+    /*width: 600px;*/
     text-align: justify;
-    display: inline-block;
-    margin: 0.3vh;
+    /*display: inline-block;*/
+    /*margin: 0.3vh;*/
 }
 
 .details__image{
-    width: 600px;
+    width: 100%;
 }    
 
-.details__image1{
-    width: 300px;
-}    
 
 /* details fin*/
 
@@ -144,7 +153,7 @@ footer{
     height: 10vh;
 }
 
-.footer_info{
+.footer__info{
     display: inline-block;
     position: absolute;
     top: 3vh;
@@ -171,7 +180,7 @@ footer{
 
 .footer_icon{
     height: 50px ;
-    margin: 5px;
+    /*margin: 5px;*/
 }
 
 .footer_social{
@@ -180,7 +189,7 @@ footer{
     top: 5px;
     font-size: 1.2rem;
     right: 120px;
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 /* footer fin */
@@ -215,22 +224,22 @@ footer{
 }
 .shop__title{
     display: inline-block;
-    margin: 50px;
+    /*margin: 50px;*/
 }
 
 .shop__search{
-    position: absolute;
-    width: 500px;  
-    top: 60px;
-    right: 100px;  
+
+    width: auto;  
+ 
 }
 
 .shop__cart{
-    height: 65px;
-    display: inline-block;
-    position: absolute;
-    right:100px;
-    top: 30px;
+    height: 100px;
+    width: auto;
+   /* display: inline-block;*/
+   /* position: absolute;*/
+   /* right:100px;
+    top: 30px;*/
 }
 
 /* shop  fin */ 
@@ -238,32 +247,33 @@ footer{
 /* shop item */
 
 .shop__item{
-    position: relative;
-    height: 200px;
-    margin-top: 70px;
+    /*position: relative;*/
+    height: auto;
+    /*margin-top: 70px;*/
 }
 
 .item__name{
     font-size: 2rem;
     display: inline-block;
-    position: absolute;
+    text-align: center;
     top: 25px;
     left: 10px;
 }
 
 .item__image{
-    height: 100px;
+    height: 90px;
+    width: auto;
     display: inline-block;
     border: solid 2px;
-    position: absolute;
+;
     left: 200px;
 }
 
 .item__description{
     font-size: 1rem;
     display: inline-block;
-    width: 300px;
-    position: absolute;
+ 
+
     left: 350px;
     top: 10px;
 }
@@ -271,16 +281,17 @@ footer{
 .item__price{
     font-size: 2rem;
     display: inline-block;
-    position: absolute;
+
     left: 720px;
     top: 25px;
 }
 
 .item__add{
     height: 50px;
-    position: absolute;
+    width: auto;
     left: 900px;
     top: 15px;
+    display: inline-block;
 }
 
 /* shop item fin */
@@ -293,7 +304,7 @@ footer{
 
 .blog__title{
     display: inline-block;
-    margin: 50px;
+
 }
 
 .blog__search{
@@ -308,7 +319,7 @@ footer{
 /* blog main */
 
 .blog__main{
-    position: relative;
+  /*  position: relative;*/
 }
 
 .blog__maintitle{
@@ -327,21 +338,22 @@ footer{
 }
 
 .main__content{
-    width: 1500px;
+    /*width: 1500px;*/
 }
 
 .blog__maintext{
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     display: inline-block;
-    width: 40%;
+    /*width: 40%;
     height: 100%;
-    margin-right: 5%;
+    margin-right: 5%;*/
     text-align: justify;
 
 }
 .blog__mainimage{
-    display: inline-block;
-    width: 30%;
+   /* display: inline-block;*/
+   /* width: 30%;*/
+   height: 100%;
 
 }
 .blog__btn{
@@ -357,7 +369,7 @@ footer{
 .about__header{
     padding-top: 20px;
     margin-bottom: 50px;
-    margin-left: 90px;
+
     font-size: 2rem;
     text-align: center;
 }
@@ -374,31 +386,49 @@ footer{
 
 .about__main
 {
-    height: 100vh;
+    height: auto;
 }
 .about__member{
-    position: relative;
-    width: 19vw;
-    margin: 2.7vw;
-    display: inline-block;
+
 }
 
 .member__name{
     display: inline-block;
     background-color: rgb(80, 15, 141);
     font-size: 1.5rem;
-    width: 19vw;
+    
+
     text-align: center;
 }
 
 .member__image{
-    width: 19vw;
+    height: 200px;
+    width: auto;
     margin-bottom: 20px;
+    display: inline-block;
 }
 
 .member__description{
     display: inline-block;
-    width: 19vw;
+   
 }
 
 /* about members fin*/
+
+@media (max-width:768px){
+
+    .footer_icon{
+        height: 40px ;
+    } 
+}
+
+
+@media (max-width:576px){
+
+    .footer_icon{
+        height: 30px ;
+    }
+    .footer__renglon{ 
+        padding: 1px;
+    }
+}
