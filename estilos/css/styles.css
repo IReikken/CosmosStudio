@@ -40,11 +40,6 @@ header{
     margin-left: 60%;
 }
 
-.header__btn{
-    background-color: aqua;
-    border: solid 2px purple;
-}
-
 .header__renglon{
     /*display: inline-block;*/
     border: solid 5px purple;
@@ -53,6 +48,10 @@ header{
     /*padding-right: 2rem;
     padding-left: 2rem;
     margin-left: 0rem;*/
+}
+
+.header__renglon:hover{
+    background-color: rgb(47, 47, 194);
 }
 
 /*  header fin*/
@@ -114,6 +113,8 @@ main{
     background-color: rgb(179, 93, 190);
     font-weight: bold;
     border-radius: 15px;
+    padding-top: 14px;
+    border-color: rgb(179, 93, 190) ;
 }
 
 /* hero fin */
@@ -124,6 +125,7 @@ main{
     margin-top: 5vh;
     position: relative;
     padding: 20px;
+
 }
 
 .details__section{
@@ -131,11 +133,25 @@ main{
     text-align: justify;
     /*display: inline-block;*/
     /*margin: 0.3vh;*/
+    overflow: hidden;
+    
 }
+    
 
 .details__image{
     width: 100%;
-}    
+    transition: 1s;
+    
+
+}
+
+.details__image:hover{
+    scale: 1.2;
+}
+
+.details__text{
+    padding-top: 20px;
+}
 
 
 /* details fin*/
@@ -178,10 +194,18 @@ footer{
     padding-left: 1rem;
 }
 
+
+
+
 .footer_icon{
     height: 50px ;
     /*margin: 5px;*/
 }
+
+.footer_icon:hover{
+    transform: rotate(345deg);
+}
+
 
 .footer_social{
     position: absolute;
