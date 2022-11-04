@@ -1,0 +1,40 @@
+.blog{ 
+    &__head{
+        position: relative;
+    } 
+    &__headtitle{
+        display: inline-block;
+    }
+    &__search{
+        position: absolute;
+        width: 500px;  
+        top: 60px;
+        right: 0px;
+    } 
+    &__maintitle{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    &__title{
+        display: inline-block;
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+    &__date{
+        display: inline-block;
+        margin-left: 60px;
+    }
+    &__maintext{
+        display: inline-block;
+        text-align: justify;
+        font-family: $body_font;
+    }
+    &__mainimage{
+        height: 100%;  
+    }
+    &__btn{
+        margin: 10px 20px;
+        margin-bottom: 0px;
+    }
+}
+

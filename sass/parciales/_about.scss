@@ -1,0 +1,41 @@
+
+.about{    
+    &__header{
+        padding-top: 20px;
+        margin-bottom: 50px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    &__headerText{
+        margin: 30px;
+        font-size: 1rem;
+        font-family: $body_font;
+    }
+    &__main
+    {
+        height: auto;
+    }
+}
+.member{
+    &__name{
+        display: inline-block;
+        background-color: rgb(80, 15, 141);
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    &__image{
+        height: 200px;
+        width: auto;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+    &__description{
+        display: inline-block;
+        margin-bottom: 80px; 
+        padding: 25px 25px;
+        p {
+            font-family: $body_font; 
+        };
+    }
+}
+

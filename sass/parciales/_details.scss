@@ -1,0 +1,22 @@
+.details{
+    margin-top: 5vh;
+    position: relative;
+    padding: 20px;
+    &__section{
+        text-align: justify;
+        overflow: hidden;
+    }     
+    &__image{
+        width: 100%;
+        transition: 1s;
+    }
+    &__image:hover{
+        scale: 1.2;
+    }
+    &__text{
+        padding-top: 20px;
+        p {
+            font-family: $body_font;
+        }
+    }
+}

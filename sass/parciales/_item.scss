@@ -1,0 +1,40 @@
+
+.item{
+    height: auto;
+    &__name{
+        font-size: 2rem;
+        display: inline-block;
+        text-align: center;
+        font-family: $body_font;
+        top: 25px;
+        left: 10px;
+    }
+    &__image{
+        height: 90px;
+        width: auto;
+        display: inline-block;
+        border: solid 2px;
+        left: 200px;
+    }
+    &__description{
+        font-size: 1rem;
+        font-family: $body_font;
+        display: inline-block;
+        left: 350px;
+        top: 10px;
+    }
+    &_price{
+        font-size: 2rem;
+        display: inline-block;
+        font-family: $body_font;
+        left: 720px;
+        top: 25px;
+    }
+    &__add{
+        height: 50px;
+        width: auto;
+        left: 900px;
+        top: 15px;
+        display: inline-block;
+    }
+}

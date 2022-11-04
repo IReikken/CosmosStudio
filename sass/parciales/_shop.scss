@@ -1,0 +1,13 @@
+.shop{
+    position: relative;
+    &__title{
+        display: inline-block;
+    }    
+    &__search{
+        width: auto;   
+    }
+    &__cart{
+        height: 100px;
+        width: auto;
+    }
+}

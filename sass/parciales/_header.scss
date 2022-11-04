@@ -1,0 +1,29 @@
+.header{
+    background-image: url(../../imagenes/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    &__logo {
+        height: 10vh;
+    }
+    &__navigation{
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        bottom: 0px;
+    }
+    &__margin{
+        margin-left: 60%;
+    }
+    &__btn{
+        background-color: aqua;
+    }
+    &__renglon{
+        border: solid 5px purple;
+        background-color: aqua;
+        &:hover{
+            background-color: rgb(47, 47, 194);
+            }
+        }
+    }

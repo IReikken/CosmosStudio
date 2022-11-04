@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda online donde se puden adquirir los juegos desarrollados por Cosmos Studdo y contenido extra y coleccionables">
+    <meta name="keywords"  content="Videogames, Videojuegos, Espacio, Aventura, Exploración, Gamedev, Indie, Consola, Odisea espacial, Universo, Low.poly, tienda, soundtrack, juego físico, peluche astronauta, libro de arte">
     <title>Tienda</title>
         <!---Fuente de texto de Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon"" href="../imagenes/icono.png">
-        <!--Bootstrap-->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <!--hoja de estilos-->
-    <link rel="stylesheet" href="../estilos/css/styles.css">
+        <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html"> <img class="header__logo" src="../imagenes/Logo sin background.png" alt="Cosmos studio Logo"> </a>
@@ -29,10 +32,10 @@
                         <a class="nav-link active" href="#">Tienda</a>
                     </li>
                     <li class="nav-item header__renglon">
-                        <a class="nav-link active" href="./contacto.html">Contacto</a>
+                        <a class="nav-link active" href="./contacto.html">Contactos</a>
                     </li>
                     <li class="nav-item header__renglon">
-                        <a class="nav-link active" href="./nosotros.html"">Acerca</a>
+                        <a class="nav-link active" href="./nosotros.html">Acerca</a>
                     </li>
                     <li class="nav-item header__renglon">
                         <a class="nav-link active" href="./blog.html">Blog</a>
@@ -44,7 +47,7 @@
     </header>
     <main>
         <div class="container-fluid mb-5">
-            <div class="shop__head row pt-2 ">
+            <div class="shop row pt-2 ">
                 <div class= " p-3 col-9 col-md-4 order-md-2">
                     <input type="search"  placeholder="búsqueda">
                     <button>Buscar</button> 
@@ -56,67 +59,67 @@
             </div>
         </div>
         <div class="container-fluid mt-5">
-            <section class="shop__item row">
+            <section class="item row">
                 <div class="item__name col-12 col-md-2">
                     Juego físico
                 </div>
                 <img class="item__image mt-4 col-4 col-md-3" src="../imagenes/juego.png" alt="Foto de juego físico">
                 <div class="item__description col-7 col-md-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur eius, quibusdam in quasi dolore est vitae deleniti consequuntur expedita nesciunt?
+                    Versión física de nuestro juego. La versión física puede ser adquirida para tu consola de preferencia y cuenta con un disco con el juego y un manual de instrucciones.
                 </div>
                 <div class="item__price m-2 col-6 col-md-2">
-                    Precio $
+                    $40 USD
                 </div>
                 <img class="item__add m-1 col-6 col-md-1" src="../imagenes/agregar.png" alt="agregar al carrito">
             </section>
         </div>
         <div class="container-fluid mt-5">
-            <section class="shop__item row">
+            <section class="item row">
                 <div class="item__name col-12 col-md-2">
                     Peluche
                 </div>
                 <img class="item__image mt-4 col-4 col-md-3" src="../imagenes/astronauta.png" alt="Foto de peluche">
                 <div class="item__description col-7 col-md-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur eius, quibusdam in quasi dolore est vitae deleniti consequuntur expedita nesciunt?
+                    Un peluche inspirado en nuestro protagonista astronauta, elabarodo con una gran calidad y atención al detalle. Su altura es de 20cm.
                 </div>
                 <div class="item__price m-2 col-6 col-md-2">
-                    Precio $
+                    $30 USD
                 </div>
                 <img class="item__add m-1 col-6 col-md-1" src="../imagenes/agregar.png" alt="agregar al carrito">
             </section>
         </div>
         <div class="container-fluid mt-5">
-            <section class="shop__item row">
+            <section class="item row">
                 <div class="item__name col-12 col-md-2">
                     Soundtrack
                 </div>
                 <img class="item__image mt-4 col-4 col-md-3" src="../imagenes/cd.png" alt="Foto de CD de soundtrack">
                 <div class="item__description col-7 col-md-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur eius, quibusdam in quasi dolore est vitae deleniti consequuntur expedita nesciunt?
+                    Revive las canciones inmersivas de este juego con este cd que contiene todas y cada una de las canciones que puedes escuhcar en el juego, así como el tema utilizado para el trailer del juego y remixes de varias canciones.
                 </div>
                 <div class="item__price m-2 col-6 col-md-2">
-                    Precio $
+                    $25 USD
                 </div>
                 <img class="item__add m-1 col-6 col-md-1" src="../imagenes/agregar.png" alt="agregar al carrito">
             </section>
         </div>
         <div class="container-fluid mt-5 pb-2">
-            <section class="shop__item row">
+            <section class="item row">
                 <div class="item__name col-12 col-md-2">
                     Libro de Arte
                 </div>
                 <img class="item__image mt-4 col-4 col-md-3" src="../imagenes/libro.png" alt="Foto de lirbo de arte">
                 <div class="item__description col-7 col-md-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur eius, quibusdam in quasi dolore est vitae deleniti consequuntur expedita nesciunt?
+                    Libro de pasta gruesa con ilustraciones detalladas de escenarios y personajes del juego, así como bocetos elaborados durante la fase de desarrollo para que puedan observar la evolución y pulido del juego.
                 </div>
                 <div class="item__price m-2 col-6 col-md-2">
-                    Precio $
+                    $30 USD
                 </div>
                 <img class="item__add m-1 col-6 col-md-1" src="../imagenes/agregar.png" alt="agregar al carrito">
             </section>
         </div>
     </main>
-    <footer>
+    <footer class="footer">
         <a href="../index.html""> <img class="footer__logo" src="../imagenes/Logo sin background.png" alt="Cosmos studio Logo"></a>
         <section class="footer__info">
             <div class="d-none d-sm-block">
@@ -126,26 +129,26 @@
                 2022 Cosmos Studios Game Dev
             </div>
         </section>
-        <div class="footer_social d-none d-sm-block col">
+        <div class="footer__social d-none d-sm-block col">
             Redes Sociales
         </div>
         <nav class="footer__navigation">
             <ul class="footer__list">
                 <li class="footer__renglon">
                     <a href="https://www.youtube.com">
-                    <img class="footer_icon " src="../imagenes/youtube.png" alt="Youtube Icon"></a>
+                    <img class="footer__icon " src="../imagenes/youtube.png" alt="Youtube Icon"></a>
                 </li>
                 <li class="footer__renglon">
                     <a href="https://www.twitter.com">
-                    <img class="footer_icon " src="../imagenes/twitter.png" alt="Twitter Icon"></a>
+                    <img class="footer__icon " src="../imagenes/twitter.png" alt="Twitter Icon"></a>
                 </li>
                 <li class="footer__renglon">
                     <a href="https://www.facebook.com/">
-                    <img class="footer_icon " src="../imagenes/facebook.png" alt="Facebook Icon"></a>
+                    <img class="footer__icon " src="../imagenes/facebook.png" alt="Facebook Icon"></a>
                 </li>
                 <li class="footer__renglon">
                     <a href="https://www.instagram.com/">
-                    <img class="footer_icon " src="../imagenes/instagram.png" alt="Instagram Icon"></a>
+                    <img class="footer__icon " src="../imagenes/instagram.png" alt="Instagram Icon"></a>
                 </li>
             </ul>
         </nav>

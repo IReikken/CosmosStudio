@@ -1,0 +1,42 @@
+.hero{
+    height: 1200px;
+    position: relative;
+    background-image: url(../../imagenes/background.jpg);
+    background-size: auto;
+    &__title{
+        display: block;
+        padding-top: 30px;
+        text-align: center;
+        font-size: 4rem;        
+    }
+    &__slogan{
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        text-align: center;
+        font-size: 2rem;    
+    }
+    &__video{
+        display: block;
+        margin: 0 auto;
+        width: 1080px;
+    }
+    &__footer{
+        margin-top: 3vh;    
+    }
+    &__text{
+        font-size: 1.5rem;
+        display: block;
+    }
+    &__btn{
+        width: 150px;
+        height: 80px;
+        margin: 0 auto;
+        background-color: rgb(179, 93, 190);
+        font-weight: bold;
+        border-radius: 15px;
+        font-size: 0.8rem;
+        padding-top: 14px;
+        border-color: rgb(179, 93, 190) ;
+    }
+}

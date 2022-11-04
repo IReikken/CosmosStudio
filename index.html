@@ -4,28 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página principal de Cosmos Studio, empresa independiente desarrolladora de videjuegos con sede en México y trabajando acutalmente en su primer juego enfocado en la exploración espacial">
+    <meta name="keywords"  content="Videogames, Videojuegos, Espacio, Aventura, Exploración, Gamedev, Indie, Consola, Odisea espacial, Universo, Low.poly">
     <title>Cosmos Studios</title>
     <!---Fuente de texto de Google Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon"" href="./imagenes/icono.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <!--hoja de estilos-->
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <!--hoja de estilos bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./estilos/css/styles.css">
-</head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--<link rel="stylesheet" href="./estilos/css/styles.css">-->
+    <link rel="stylesheet" href="./css/estilos.css">
 <body>
-    <header>
-        <!--<a href="#" class="navbar-brand"> <img class="header__logo" src="./imagenes/Logo sin background.png" alt="Cosmos studio Logo"> </a>
-        <nav class="header__navigation navbar">
-            <ul class="header__list nav">
-                <li class="header__renglon nav-item"><a class="nav-link" href="./vistas/tienda.html">Tienda</a></li>
-                <li class="header__renglon nav-item"><a class="nav-link" href="./vistas/contacto.html">Contacto</a></li>
-                <li class="header__renglon nav-item"><a class="nav-link" href="./vistas/nosotros.html">Acerca</a></li>
-                <li class="header__renglon nav-item"><a class="nav-link" href="./vistas/blog.html">Blog</a></li>
-            </ul>
-        </nav>-->
+    <header class="header">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"> <img class="header__logo" src="./imagenes/Logo sin background.png" alt="Cosmos studio Logo"> </a>
@@ -59,10 +53,10 @@
                 <video class="hero__video col-xs" autoplay muted loop  src="./imagenes/Game video.mp4"> </video>
             </div>
             <div class="hero__footer row p-lg-50">
-                <p class="hero__text p-3 col-md-6 offset-md-1 col-xs-1" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, debitis! Officiis, nesciunt sapiente! Possimus consectetur velit impedit nisi qui. Nobis aut natus inventore quia ex. Odit est accusantium ex voluptatibus adipisci labore at tempora. Mollitia aut vero vitae quod nesciunt.</p>
+                <p class="hero__text p-3 col-md-6 offset-md-1 col-xs-1" >Atrevete a explorar el espacio y descubre todos los misterios y peligros que te aguardan en este juego de aventura espacial con hermoso arte visual y un soundtrack emocionante</p>
                 <div class="col-md-5 col-xs-1 container">
                     <div class="btn__container row p-md-5"></div>
-                    <button class="hero__btn row  hover-bg-red"">Conoce más sobre nuestro juego</button>
+                    <button class="hero__btn row"">Conoce más sobre nuestro juego</button>
                     <div class="row"></div>
                 </div>
             </div>
@@ -72,31 +66,31 @@
                 <div class="details__section col-lg-3 col-md-6 col-xs-12">
                     <img src="./imagenes/Game pic 1.png" alt="game screenshot 1"  class="details__image">
                     <div class="details__text wow bounceInUp">
-                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore dolorem voluptatibus consectetur eius accusantium tenetur expedita consequuntur, esse odio perferendis exercitationem reiciendis suscipit, enim porro officiis numquam beatae magnam!</p>
+                        <p>Explora la superficie de una gran cantidad de planetas variados y con su propia fauna y flora. Recolecta recursos mientras huyes de temibles formas de vida nativas de cada planeta. Mejora tus herramientas y vuelvete más eficiente para explorar el espacio</p>
                     </div>
                 </div>
                 <div class="details__section col-lg-3 col-md-6 col-xs-12">
                     <img src="./imagenes/Game pic 2.png" alt="game screenshot 1"  class="details__image" >
                     <div class="details__text wow bounceInUp">
-                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore dolorem voluptatibus consectetur eius accusantium tenetur expedita consequuntur, esse odio perferendis exercitationem reiciendis suscipit, enim porro officiis numquam beatae magnam!</p>
+                        <p >Vuela atra vez del cosmos en una nave espacial que podrás ir modificando conforme vayas explorando los confines de la galaxia. Esquiva asteroides y busca agujeros negros, los misterios del espacio te aguardan.</p>
                     </div>
                 </div>
                 <div class="details__section col-lg-3 col-md-6 col-xs-12">
                     <img src="./imagenes/Game pic 3.png" alt="game screenshot 1" class="details__image">
                     <div class="details__text wow bounceInUp">
-                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore dolorem voluptatibus consectetur eius accusantium tenetur expedita consequuntur, esse odio perferendis exercitationem reiciendis suscipit, enim porro officiis numquam beatae magnam!</p>
+                        <p>Cada planeta es único y diferente. Algunos cuentan con agua, otros se encuentran tan alejados de las estrellas que poca luz recorre sus superficie. ¿Tendrás las suficientes agallas para explorar los planetas más remotos del universo?</p>
                     </div>
                 </div>
                 <div class="details__section col-lg-3 col-md-6 col-xs-12">
                     <img src="./imagenes/Game pic 4.png" alt="game screenshot 1" class="details__image" >
                     <div class="details__text wow bounceInUp">
-                        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae tempore dolorem voluptatibus consectetur eius accusantium tenetur expedita consequuntur, esse odio perferendis exercitationem reiciendis suscipit, enim porro officiis numquam beatae magnam!</p>
+                        <p>Tu personaje irá mejorando a lo largo de la aventura, podrás personalizar tu traje y también contarás con la compañia y asistencia de múltiples robots que también podrás ir mejorando.</p>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="footer">
         <a href="#""> <img class="footer__logo" src="./imagenes/Logo sin background.png" alt="Cosmos studio Logo"></a>
         <section class="footer__info">
             <div class="d-none d-sm-block">
@@ -106,26 +100,26 @@
                  2022 Cosmos Studios Game Dev
             </div>
         </section>
-        <div class="footer_social d-none d-sm-block col">
+        <div class="footer__social d-none d-sm-block col">
              Redes Sociales
         </div>
         <nav class="footer__navigation">
             <ul class="footer__list">
                 <li class="footer__renglon">
                     <a href="https://www.youtube.com">
-                    <img class="footer_icon " src="./imagenes/youtube.png" alt="Youtube Icon"></a>
+                    <img class="footer__icon " src="./imagenes/youtube.png" alt="Youtube Icon"></a>
                 </li>
                 <li class="footer__renglon">
                     <a href="https://www.twitter.com">
-                    <img class="footer_icon " src="./imagenes/twitter.png" alt="Twitter Icon"></a>
+                    <img class="footer__icon " src="./imagenes/twitter.png" alt="Twitter Icon"></a>
                 </li>
                 <li class="footer__renglon">
                     <a href="https://www.facebook.com/">
-                    <img class="footer_icon " src="./imagenes/facebook.png" alt="Facebook Icon"></a>
+                    <img class="footer__icon " src="./imagenes/facebook.png" alt="Facebook Icon"></a>
                 </li>
                 <li class="footer__renglon">
                     <a href="https://www.instagram.com/">
-                    <img class="footer_icon " src="./imagenes/instagram.png" alt="Instagram Icon"></a>
+                    <img class="footer__icon " src="./imagenes/instagram.png" alt="Instagram Icon"></a>
                 </li>
             </ul>
         </nav>

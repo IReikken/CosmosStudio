@@ -1,0 +1,20 @@
+
+.form{
+        text-decoration: solid;
+    &__header{
+        display: inline-block;
+        margin: 100px;
+    }
+    &__main{
+        font-size:1rem;
+    }
+    
+    &__legend{
+        font-size: 2rem;
+        display: inline-block;
+        margin-bottom: 50px;   
+    }
+    &__input{
+        margin-bottom: 30px;
+    }
+}
