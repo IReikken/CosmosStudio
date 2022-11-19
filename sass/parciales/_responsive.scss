@@ -1,13 +1,17 @@
 @media (max-width:768px){
-    .footer_icon{
+    .footer__icon{
         height: 40px ;
-    } 
+    }
 }
 @media (max-width:576px){
-    .footer_icon{
+    .footer__icon{
         height: 30px ;
     }
     .footer__renglon{ 
         padding: 1px;
     }
+    .about__member{
+        padding-left: 18%;
+    }
 }
+

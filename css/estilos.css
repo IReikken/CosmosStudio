@@ -1,7 +1,7 @@
 .about__header {
   padding-top: 20px;
   margin-bottom: 50px;
-  font-size: 2rem;
+  font-size: 2.5rem;
   text-align: center; }
 
 .about__headerText {
@@ -13,10 +13,10 @@
   height: auto; }
 
 .member__name {
-  display: inline-block;
   background-color: #500f8d;
   font-size: 1.5rem;
-  text-align: center; }
+  text-align: center;
+  width: 211px; }
 
 .member__image {
   height: 200px;
@@ -27,7 +27,8 @@
 .member__description {
   display: inline-block;
   margin-bottom: 80px;
-  padding: 25px 25px; }
+  padding-right: 25px;
+  width: 250px; }
   .member__description p {
     font-family: Fira Sans sans-serif; }
 
@@ -35,7 +36,8 @@
   position: relative; }
 
 .blog__headtitle {
-  display: inline-block; }
+  display: inline-block;
+  font-size: 2.5rem; }
 
 .blog__search {
   position: absolute;
@@ -124,7 +126,8 @@
   text-decoration: solid; }
   .form__header {
     display: inline-block;
-    margin: 100px; }
+    margin: 50px;
+    font-size: 2.5rem; }
   .form__main {
     font-size: 1rem; }
   .form__legend {
@@ -172,7 +175,7 @@
     padding-top: 10px;
     padding-bottom: 50px;
     text-align: center;
-    font-size: 2rem; }
+    font-size: 2.5rem; }
   .hero__video {
     display: block;
     margin: 0 auto;
@@ -241,7 +244,8 @@ main {
 .shop {
   position: relative; }
   .shop__title {
-    display: inline-block; }
+    display: inline-block;
+    font-size: 2.5rem; }
   .shop__search {
     width: auto; }
   .shop__cart {
@@ -249,11 +253,13 @@ main {
     width: auto; }
 
 @media (max-width: 768px) {
-  .footer_icon {
+  .footer__icon {
     height: 40px; } }
 
 @media (max-width: 576px) {
-  .footer_icon {
+  .footer__icon {
     height: 30px; }
   .footer__renglon {
-    padding: 1px; } }
+    padding: 1px; }
+  .about__member {
+    padding-left: 18%; } }

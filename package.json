@@ -17,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/IReikken/CosmosStudio/issues"
   },
-  "homepage": "https://github.com/IReikken/CosmosStudio#readme"
+  "homepage": "https://github.com/IReikken/CosmosStudio#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1"
+  },
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
 }

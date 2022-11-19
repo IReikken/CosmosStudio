@@ -3,7 +3,8 @@
         text-decoration: solid;
     &__header{
         display: inline-block;
-        margin: 100px;
+        margin: 50px;
+        font-size: $title_text;
     }
     &__main{
         font-size:1rem;

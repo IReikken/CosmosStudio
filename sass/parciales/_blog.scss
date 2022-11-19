@@ -4,6 +4,7 @@
     } 
     &__headtitle{
         display: inline-block;
+        font-size: $title_text;
     }
     &__search{
         position: absolute;

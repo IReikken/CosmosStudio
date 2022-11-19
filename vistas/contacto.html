@@ -13,12 +13,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="shortcut icon"" href="../imagenes/icono.png">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
-    <!--Bootstrap-->
+        <!--Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
         <!--hoja de estilos-->
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
+        <!--Header-->
     <header class="header">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
@@ -45,12 +46,14 @@
             </div>
         </nav>
     </header>
+                <!--Título de encuesta-->
     <main class="form">
         <h1 class="form__header">
             Compártenos tu opinión del juego
         </h1>
+                <!--Encuesta-->
         <form class="form__main" action="#" method="get" enctype="text/plain">
-            <fieldset class="form-group p-2">
+            <fieldset class="form-group p-2 ms-2 me-4">
                 <legend class="form__legend">Información Personal </legend>
                 <div>
                     <label for="nombre">Nombre:</label>
@@ -93,12 +96,13 @@
                 <div>
                     <textarea class="form__input form-control" name="opinion" cols="100" rows="10"></textarea>
                 </div>              
-                <div>
-                    <input class="form__input form-control" type="submit" value="Enviar formulario">
+                <div class="me-5 ms-5">
+                    <input class="form__input form-control " type="submit" value="Enviar formulario">
                 </div>
             </fieldset>
         </form>
     </main>
+        <!--Footer-->
     <footer class="footer">
         <a href="../index.html""> <img class="footer__logo" src="../imagenes/Logo sin background.png" alt="Cosmos studio Logo"></a>
         <section class="footer__info">
