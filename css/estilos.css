@@ -262,4 +262,6 @@ main {
   .footer__renglon {
     padding: 1px; }
   .about__member {
-    padding-left: 18%; } }
+    padding-left: 18%; }
+  .footer__list {
+    margin-bottom: 0; } }
